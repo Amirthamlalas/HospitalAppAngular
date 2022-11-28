@@ -12,6 +12,7 @@ import { ViewPatientsComponent } from './view-patients/view-patients.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 
+
 const myRoute:Routes = [
 {
   path :"",
@@ -46,6 +47,7 @@ const myRoute:Routes = [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myRoute)
+
   ],
   providers: [],
   bootstrap: [AppComponent]
